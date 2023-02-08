@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "org.zhuxiaole.gradle.catalog"
-    compileSdk = libs.versions.compileSdk.get().toInt()
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "org.zhuxiaole.gradle.catalog"
-        minSdk = libs.versions.minSdk.get().toInt()
-        targetSdk = libs.versions.targetSdk.get().toInt()
+        minSdk = 21
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
